@@ -4,8 +4,8 @@ import Dropdown from "./dropdown";
 const Header = ({ value, onSearch, onValueSelect, sortValue }) => {
   return (
     <header className="header">
-      <span className="header__logo-name">Cinematix</span>
-      <span className="header__logo-phone">Cinematix</span>
+      <span className="header__logo-name">Filmathon</span>
+      <span className="header__logo-phone">Filmathon</span>
       <form className="search">
         <input
           className="search__input"

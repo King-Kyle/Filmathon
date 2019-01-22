@@ -16,24 +16,15 @@ const PhoneFooter = () => {
         />
       </a>
       <div className="legal">
-        &copy; 2018 by{" "}
+        &copy; 2019 by{" "}
         <a
-          href="https://gilbertrosario.com/"
+          href="https://github.com/King-Kyle"
           target="_blank"
           rel="noopener noreferrer"
           className="footer__link"
         >
-          Gilbert Rosario.
+          Kyle King.
         </a>{" "}
-        All rights reserved. View on{" "}
-        <a
-          href="https://github.com/Gilbert1391/Movie-Dashboard"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="footer__link"
-        >
-          GitHub.
-        </a>
       </div>
     </footer>
   );
