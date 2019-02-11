@@ -4,6 +4,7 @@ import { Fade } from "react-reveal";
 import { ClipLoader } from "react-spinners";
 import http from "../services/httpService";
 import StarRatingComponent from "react-star-rating-component";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Dashboard extends Component {
   state = {
@@ -115,11 +116,11 @@ class Dashboard extends Component {
                       className="dashboard__btn dashboard__btn--home"
                     >
                       <div className="dashboard__icon">
-                        <i
+                        <FontAwesomeIcon              
+                          icon="long-arrow-alt-left"
                           style={{ marginRight: "0.7rem" }}
-                          className="fa fa-long-arrow-left"
                         />
-                        <i className="fa fa-home" />
+                        <FontAwesomeIcon icon="home" />
                       </div>
                     </button>
                     {!trailer ? (
@@ -136,7 +137,7 @@ class Dashboard extends Component {
                           style={{ marginLeft: "0.7rem" }}
                           className="dashboard__icon"
                         >
-                          <i className="fa fa-caret-right" />
+                          <FontAwesomeIcon icon="caret-right" />
                         </div>
                       </a>
                     )}
